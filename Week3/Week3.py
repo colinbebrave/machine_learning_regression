@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import statsmodels.api as st
 import matplotlib.pyplot as plt
-import os
-os.chdir('/Users/wangqi/Documents/PyCharm/ML_Regression/Week3')
 
 def polynomial_dataframe(feature, degree):
     # initialize the dataframe
